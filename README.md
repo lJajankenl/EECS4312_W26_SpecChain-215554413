@@ -9,7 +9,7 @@ Please update to include:
 - Exact commands to run pipeline
 
 # example
-Application: [Calm]
+Application: Calm - Sleep, Meditate, Relax
 
 Dataset:
 - reviews_raw.jsonl contains the collected reviews.
