@@ -23,10 +23,10 @@ df = df[df['content'].str.len() > 20]
 df['content'] = df['content'].str.replace(r"[^\w\s]", "", regex=True)
 
 # Convert numbers to text
-pattern = r"\d+"
+numberPattern = r"\d+"
 
 def convert_numbers(review):
-    numberMatches = re.findall(pattern, review)
+    numberMatches = re.findall(numberPattern, review)
     for number in numberMatches:
         word = num2words.num2words(int(number))
         review = review.replace(number, word)
@@ -35,6 +35,8 @@ def convert_numbers(review):
 df['content'] = df['content'].apply(convert_numbers)
 
 # Remove extra whitespace
+df['content'] = df['content'].str.replace(r"\s+", " ", regex=True)
+df['content'] = df['content'].str.strip()
 
 # Convert all words to lowercase
 df['content'] = df['content'].str.lower()
@@ -44,7 +46,7 @@ df['content'] = df['content'].str.lower()
 #df['content'] = df['content'].str.replace(r"[stop_words]", "", regex=True)
 
 # Lemmatize the reviews
-lemmatizer = WordNetLemmatizer()
-df['content'] = [lemmatizer.lemmatize(word) for word in df['content']]
+#lemmatizer = WordNetLemmatizer()
+#df['content'] = [lemmatizer.lemmatize(word) for word in df['content']]
 
-df.to_json("data/reviews_clean.jsonl", orient="records", lines=True)
+#df.to_json("data/reviews_clean.jsonl", orient="records", lines=True)
