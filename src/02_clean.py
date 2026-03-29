@@ -3,23 +3,25 @@ import pandas as pd
 import num2words
 from stop_words import get_stop_words
 import nltk
-import re
-nltk.download('punkt_tab')      
-nltk.download('wordnet')    
-nltk.download('omw-1.4') 
-nltk.download('averaged_perceptron_tagger_eng')
+from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
+
+nltk.download('stopwords')
+nltk.download('punkt')
+import re
 
 df = pd.read_json("data/reviews_raw.jsonl", lines=True)
+
+# Remove duplicate reviews
 df.drop_duplicates(inplace=True)
 
+# Remove empty reviews
 df = df[df['content'].notna() & (df['content'] != '')]
 
-# The valid review length must be greater than 20 because arbitrarily set.  
+# Removes short reviews, i.e., reviews that have 20 or less characters.  
 df = df[df['content'].str.len() > 20]
 
-# Remove punctuation, special characters, and emojis.  
+# Removes punctuation, special characters, and emojis 
 df['content'] = df['content'].str.replace(r"[^\w\s]", "", regex=True)
 
 # Convert numbers to text
@@ -41,12 +43,24 @@ df['content'] = df['content'].str.strip()
 # Convert all words to lowercase
 df['content'] = df['content'].str.lower()
 
-# Remove stop words
-#stop_words = get_stop_words('en')
-#df['content'] = df['content'].str.replace(r"[stop_words]", "", regex=True)
+# Removes stop words
+stop_words = set(stopwords.words('english'))
+filtered_reviews = []
+
+for review in df['content']:
+    word_tokens = word_tokenize(review)
+    
+    filtered_words = []
+    for word in word_tokens:
+        if word not in stop_words:
+            filtered_words.append(word)
+
+    filtered_reviews.append(" ".join(filtered_words))
+df['content'] = filtered_reviews
+
 
 # Lemmatize the reviews
 #lemmatizer = WordNetLemmatizer()
 #df['content'] = [lemmatizer.lemmatize(word) for word in df['content']]
 
-#df.to_json("data/reviews_clean.jsonl", orient="records", lines=True)
+df.to_json("data/reviews_clean.jsonl", orient="records", lines=True)
