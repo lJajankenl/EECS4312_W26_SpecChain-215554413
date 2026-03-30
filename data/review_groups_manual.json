@@ -2,6 +2,65 @@
   "groups": [
     {
       "group_id": "G1",
+      "theme": "Subscription related issues.  ",
+      "review_ids": [
+        "9198358f-d4cb-4d12-b2fe-405c3d3367c0",
+        "43423521-78f1-477e-ad92-765a4d30c7ae",
+        "b329e371-4f27-47de-9f40-390de138149b", 
+        "20b5a73e-28fa-4666-80b1-76537165ecf5", 
+        "1f42c480-27f8-4e6b-a9dc-33f3432a0662",
+        "b065f1e7-4cba-4631-98c5-d4eab5e787c3",
+        "d24921b9-0683-4509-aed8-7a74b7602ab1",
+        "9f46db03-d76e-4ee9-a08d-d00da8b7a35b",
+        "2c0912c7-973b-43ee-b807-6e452138f234",
+        "76e30760-6348-4891-85e0-d9b7c8ed0e43"
+      ],
+      "example_reviews": [
+        "seven day free trial app work expensive subscription make free trial thirty day ill review near future maybe five star",
+        "typical money grabbing app want purchase subscription right away",
+        "canceled subscription trail phase application still charged annual subscription fee",
+        "received free trial thirty day say app helped lot past month althoughon day twenty nine canceled free trial keep charged showed canceled day thirty show canceled two thousand twenty seven yes charged year subscription refund policy needless say upset google play store careful free trial calm lesson learned",
+        "mental health come price twenty thats near double subscription anywhere else",
+        "absolutely chance im gon na pay subscription fee sleep",
+        "paid annual subscription keep direct debiting twenty three month nothing matter many time contact support wont stop charging something ive already paid would subscribe anything related calm",
+        "gave three star app good constant notice upgrade family plan share someone else annoying see created whole new app course whole new subscription dedicated sleep thats half reason got app first place want charge additional subscription hope worth lost paying customer due trying squeeze money dedicated customer",
+        "im upset signed try app supposed charge one month charged bank full year subscription wanted see updated content decided ig wanted keep worst part still stuff canceled membership first place",
+        "cancelled subscription immediately got free month still charged year without permission"
+      ]
+    },
+
+    {
+      "group_id": "G2",
+      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
+      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "example_reviews": [
+        "The app crashes every time I log my run.",
+        "Logging workouts causes the app to freeze."
+      ]
+    },
+
+    {
+      "group_id": "G3",
+      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
+      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "example_reviews": [
+        "The app crashes every time I log my run.",
+        "Logging workouts causes the app to freeze."
+      ]
+    },
+
+    {
+      "group_id": "G4",
+      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
+      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "example_reviews": [
+        "The app crashes every time I log my run.",
+        "Logging workouts causes the app to freeze."
+      ]
+    },
+
+    {
+      "group_id": "G5",
       "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
       "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
       "example_reviews": [
