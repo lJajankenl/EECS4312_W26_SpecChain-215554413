@@ -1,0 +1,16 @@
+{
+    "app_name": "Calm - Sleep, Meditate, Relax",
+    "dataset_size": "1520",
+    "collection_method": "Web scraper.  ",
+    "cleaning_decisions": [
+        "Remove duplicates", 
+        "Remove empty reviews",
+        "Remove punctuation, special characters, and emojis",
+        "Convert numbers into text format",
+        "Remove extra white spaces",
+        "Convert all words to lowercase",
+        "Remove stop words",
+        "Default lemmatization of reviews",
+        "Remove all reviews with less than 20 characters"
+    ]
+}
