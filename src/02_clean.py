@@ -1,13 +1,9 @@
 """cleans raw data & make clean dataset"""
 import pandas as pd
 import num2words
-from stop_words import get_stop_words
-import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-
-nltk.download('stopwords')
-nltk.download('punkt')
+from nltk.stem import WordNetLemmatizer
 import re
 
 df = pd.read_json("data/reviews_raw.jsonl", lines=True)
@@ -17,9 +13,6 @@ df.drop_duplicates(inplace=True)
 
 # Remove empty reviews
 df = df[df['content'].notna() & (df['content'] != '')]
-
-# Removes short reviews, i.e., reviews that have 20 or less characters.  
-df = df[df['content'].str.len() > 20]
 
 # Removes punctuation, special characters, and emojis 
 df['content'] = df['content'].str.replace(r"[^\w\s]", "", regex=True)
@@ -31,6 +24,7 @@ def convert_numbers(review):
     numberMatches = re.findall(numberPattern, review)
     for number in numberMatches:
         word = num2words.num2words(int(number))
+        word = word.replace(r"-", " ")
         review = review.replace(number, word)
     return review
 
@@ -60,7 +54,20 @@ df['content'] = filtered_reviews
 
 
 # Lemmatize the reviews
-#lemmatizer = WordNetLemmatizer()
-#df['content'] = [lemmatizer.lemmatize(word) for word in df['content']]
+lemmatizer = WordNetLemmatizer()
+lemmatized_reviews = []
+
+for review in df['content']:
+    words = review.split()
+    
+    lemmatized_words = []
+    for word in words:
+        lemmatized_words.append(lemmatizer.lemmatize(word))
+
+    lemmatized_reviews.append(" ".join(lemmatized_words))
+df['content'] = lemmatized_reviews
+
+# Removes short reviews, i.e., reviews that have 20 or less characters.  
+df = df[df['content'].str.len() > 20]
 
 df.to_json("data/reviews_clean.jsonl", orient="records", lines=True)
