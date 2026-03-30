@@ -31,41 +31,119 @@
 
     {
       "group_id": "G2",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "theme": "Improved sleep quality.  ",
+      "review_ids": [
+        "66ab3d37-200a-40d7-80e3-363dd084f609", 
+        "f095bf3f-b100-49e2-89b6-80047c7a912c", 
+        "3cdc690f-54f5-47cc-bdec-a614db1e85a9", 
+        "1c836529-f5d1-4f12-8481-fabd04ef5890",
+        "50e8b3d7-08ff-4a53-a1fd-ec6478e5e956", 
+        "1c9b7e77-c156-45ae-bd1d-d2dc6332807d", 
+        "37db6fd8-9dc5-4a59-ad1a-412f3891d9bd", 
+        "ed367992-9e33-4687-99ad-2ab13014fb4d",
+        "a00f3821-83be-456c-864f-21b522a68df2", 
+        "eb7e06e9-ffe8-4ba2-b181-4805130efcd1"
+      ],
       "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
+        "something voicei fall asleep much faster",
+        "helped much sleep even tracked thing didnt know love recommend",
+        "amazing app people trouble sleeping",
+        "great app really help get sleep wish theyd add train story",
+        "harry style tell best sleepstory ever even cat came cuddle nook arm sleep well stanley tucci usually make basket leg come catpeople understand dont",
+        "like fact leaf rain make day better help sleep",
+        "love app work perfectly need nice sound help sleep relax",
+        "use calm sleep excellent",
+        "im going honest started using app actually use sleep lot better bear mind dont sleep well never slept well always trouble falling asleep something listening wind mountain lightning storm help fall asleep right lightning crack like cat doesnt freak cat running away making lot noise thunder go sleep pretty good",
+        "best aid going sleep ever used"
       ]
     },
 
     {
       "group_id": "G3",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "theme": "Pricing complaints.  ",
+      "review_ids": [
+        "1f42c480-27f8-4e6b-a9dc-33f3432a0662", 
+        "599953d6-b77b-482d-aea6-b6b810ab28b7", 
+        "dd2d0021-c859-48df-a930-7ea3c902557f", 
+        "2be2fed5-d26b-4cc3-bcb1-a800dfcd3c2f",
+        "45ab8002-1952-4bcb-9487-4a7c8a71813d", 
+        "52872ba3-1504-4a89-9aed-7e4347d690af", 
+        "edb05bd6-4e4b-42e4-b43c-0d6203408796", 
+        "4a38e962-35cf-48d9-bdc3-c7c2389eede4",
+        "fc1f2b62-5c0f-4411-b025-7add32481956", 
+        "a26d96b4-011a-4a14-9e5d-db632bd3e09f"
+      ],
       "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
+        "mental health come price twenty thats near double subscription anywhere else",
+        "price supposedly helping people highly difficult condition many amount disposable income absolutely disgusting app could help many struggling individual stop focusing design advertising list go better compassionate human being failing miserably",
+        "app nearly year price change ninety nine made unsubscribe sadly good app worth huge increase price well done great product ruined greed",
+        "calm app expensive resource mental health used love resubscribe others much reasonably priced im disappointed",
+        "bad app need change monthly subsciption price six hundred sixty six horrible number",
+        "app waaaaay price range im single parent wanted give go expensive wealthy people",
+        "app already expensive price going even also app constantly run background unless manually stopped annoying expensive receive really helpful money subscriber pay apparently used pay celebrity read bedtime story adult helpful",
+        "ill change let try without asking buy many time also price little expensive okay might get see let woosa whatever",
+        "im disappointed calm bc feel expensive price increased got app recommendation therapist reluctant bc price wanted try ive app two year really enjoy meditation sleep noise nice eighty year though would least expect nicer ui app kind look like potato new content deleted saw increased cost",
+        "calm amazing primarily use kid sleep story mile better anything else weve found bit pricey unbeatable content"
       ]
     },
 
     {
       "group_id": "G4",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "theme": "Meditate/Meditation related.  ",
+      "review_ids": [
+        "e0b5612d-0328-45ee-b3b7-d00f88f14dd3", 
+        "7a072e93-2983-482c-a450-6895d8466fb0", 
+        "78b9095f-6b2d-4e40-8208-43f60891a2d8", 
+        "64f9c61-a12e-49da-984b-538edad987fc",
+        "4e4d2950-e4de-43e1-8313-8a110a0d5b3e", 
+        "5204b2d4-4cff-49cf-ae0e-c7749b5297cc", 
+        "3fdb919c-1953-45a0-af6e-b0d488e99009", 
+        "a93ad355-d408-4c7d-b27b-2d689868fe77",
+        "2aaf4f45-af6f-4024-b341-59fb188e9ce7", 
+        "8e626737-a23b-40f9-ae4f-e8470d8eda0e"
+      ],
       "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
+        "using calm fiveyrs superb app last update search sleep story narrator want search like erik braa alan sklar pick sleep story cant search option go meditation recommends random item four story narrator want see story fix please calm",
+        "great applove guest meditation overall quick easy listening",
+        "never thought could meditate tried daily calm ten minute day take variety topic managing anxiety building gratitude keep interesting also love calm kid section thing help toddler settle nap beautiful welldesigned app",
+        "ive using app five year love meditating jay shetty tamara levitt recently meditate background noise drowns host defeat purpose meditating done fix",
+        "love app replaced doomscrolling morning meditation mental health significantly improved become normal part selfcare routine",
+        "goal meditation especially regular meditation j definitely right app",
+        "disappointing well go money toilet free version decided subscribe big mistake really expectation tried find meditation like men low voice irritating listen app doesnt leave alone daily jnput borderline aggressive breathing session pathetic thirty second wanted soothing voice soothing sound dont buy",
+        "favourite meditation app",
+        "calm saving grace meditation sleep story mental physical health benefit app immensely",
+        "tamara leavits meditation wonderful"
       ]
     },
 
-    {
+   {
       "group_id": "G5",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "theme": "Mind/Mental health related.  ",
+      "review_ids": [
+        "2dc25019-abd6-4102-9de8-d508cc953ba8", 
+        "c5dd92cc-462c-47bf-b84a-da6963cce373", 
+        "78b8bcfb-0c0f-4e56-8e14-ac529ad1789c", 
+        "55c09c0c-8c64-43a1-b075-6c6d46a314b1",
+        "23b26ab4-e100-47e4-ad99-b603e23467ff", 
+        "93b6acf8-a3c7-4f74-add9-7a8148394cfe", 
+        "f2257827-ecbf-41bc-94f2-c1bbd9ab7f43", 
+        "a7aab31e-00b5-4d11-a1ee-41fcf0d528c0",
+        "8afb9e07-b26a-4f9d-97cf-cf7f680864f1", 
+        "45192748-27eb-41d6-8267-7150c1892099"
+      ],
       "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
+        "calm app helped recover toxic marriage abusive wife helped control flashback ptsd panic attack generalized anxiety disorder thank wonderful program",
+        "help anxiety sleeplessness overall mental health cant recommend enough",
+        "wide range soothing story soundscapes help relax drift sleep youre suffering sleepless night anxiety app really help",
+        "happy social worker recommended thank love always anxiety riddled mom",
+        "calm valuable resource peace mind improving mental health growth healing year incredibly grateful app",
+        "really amazing app help manage mental well adhd",
+        "beautifully crafted companion mental wellness guided meditation gentle practical sleep story soothing soundscapes create instant calm daily checkins mindful exercise cultivate consistency without pressure design serene content worldclass result genuinely felt everyday life",
+        "app calming recommends anyone seeking mental physical emotional breaking appreciate sleep story soothing g voice",
+        "truly helped much learn handle anxiety stress done consistently wonderful tool helping become healthier mentally believer jesus well reading worried new age factor safe good mindfulness session body scan love sound scape",
+        "amazing app mindfulness meditation sometimes listening scene calming calm sleep story guided meditation simple breathing exercise said app issue especially price disappointing there proper playlist management example completely recreate playlist want edit also reorder rename app need work content solid"
       ]
     }
+
+
   ]}
