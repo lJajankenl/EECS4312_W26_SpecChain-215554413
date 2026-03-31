@@ -28,55 +28,55 @@
 
     {
       "id": "P2",
-      "name": "",
-      "description": "",
-      "derived_from_group": "",
+      "name": "Poor Sleepers.  ",
+      "description": "Users who have problems with sleeping.  ",
+      "derived_from_group": "G2",
       "goals": [
-        "",
-        ""      
+        "Fall asleep faster using Calm's voices/audio.  ",
+        "Have a large variety of sleep stories/audio to select from.  "      
       ],
       "pain_points": [
-        "",
-        ""      
+        "Voices are somewhat limited in terms of variety.  ",
+        "Lack of environmental audio for relaxtion.  "      
       ],
       "context": [
-        "",
-        ""      
+        "App is a part of nightly routine where sleep quality has improved as a result.  ",
+        "Finds environmental/nature sounds relaxing and would like to fall asleep to them.  "      
       ],
       "constraints": [
-        "",
-        ""       
+        "Audio/voice library variety must not be limited to a few voices/sounds.  ",
+        "App must not crash during night when asleep.  "       
       ],
       "evidence_reviews": [
-        "",
-        ""      
+        "66ab3d37-200a-40d7-80e3-363dd084f609",
+        "f095bf3f-b100-49e2-89b6-80047c7a912c"     
       ]
     },
     
     {
       "id": "P3",
-      "name": "",
-      "description": "",
-      "derived_from_group": "",
+      "name": "Middle Class Customer",
+      "description": "Regular customer who enjoys apps services but thinks the pricing is unreasonably expensive.  ",
+      "derived_from_group": "G3",
       "goals": [
-        "",
-        ""      
+        "Access to mental wellness tools at reasonable prices.  ",
+        "Advocating for accessibility of mental health resources.   "      
       ],
       "pain_points": [
-        "",
-        ""      
+        "Subscription price increased unreasonably.  ",
+        "Pricing makes mental health tools inaccessible.  "      
       ],
       "context": [
-        "",
-        ""      
+        "Cost of subscription is no longer justified by the services provided by app.  ",
+        "Lack of consideration for people who are not as finnicially well-off.  "      
       ],
       "constraints": [
-        "",
-        ""       
+        "Increased quality content of the app must justify a price increase.  ",
+        "Price increases must be communicated transparently and directly.  "       
       ],
       "evidence_reviews": [
-        "",
-        ""      
+        "599953d6-b77b-482d-aea6-b6b810ab28b7",
+        "dd2d0021-c859-48df-a930-7ea3c902557f"      
       ]
     },
 
