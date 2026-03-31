@@ -1,22 +1,128 @@
 {  "personas": [
     {
       "id": "P1",
-      "name": "Frequent Activity Tracker",
-      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
+      "name": "Unsatisifed subscriber.",
+      "description": "A user who experienced unexpected charges due to shady business tactics following the end of a free trial.  ",
       "derived_from_group": "G1",
       "goals": [
-        "Track workouts consistently",
-        "Log activity quickly"      ],
+        "Make subscriptions transparent.  ",
+        "Get proper refund after cancelling a subscription.  "      
+      ],
       "pain_points": [
-        "App crashes during logging",
-        "Workout data sometimes disappears"      ],
+        "Charged after the free trial.  ",
+        "Unhelpful support team regarding refunds.  "      
+      ],
       "context": [
-        "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
+        "Automatically subscribed after the free trial despite cancelling.   ",
+        "Contacted support team following unwatned subscription charge.  "      
+      ],
       "constraints": [
-        "Logging must be reliable",
-        "Data should not be lost"       ],
+        "Lock into a subscription must be explicit.  ",
+        "Support team must be forgiving in terms of refunds for wrongful subscriptions.  "       
+      ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_45"      ]
-    }  ] }
+        "9198358f-d4cb-4d12-b2fe-405c3d3367c0",
+        "43423521-78f1-477e-ad92-765a4d30c7ae"  
+      ]
+    },
+
+    {
+      "id": "P2",
+      "name": "",
+      "description": "",
+      "derived_from_group": "",
+      "goals": [
+        "",
+        ""      
+      ],
+      "pain_points": [
+        "",
+        ""      
+      ],
+      "context": [
+        "",
+        ""      
+      ],
+      "constraints": [
+        "",
+        ""       
+      ],
+      "evidence_reviews": [
+        "",
+        ""      
+      ]
+    },
+    
+    {
+      "id": "P3",
+      "name": "",
+      "description": "",
+      "derived_from_group": "",
+      "goals": [
+        "",
+        ""      
+      ],
+      "pain_points": [
+        "",
+        ""      
+      ],
+      "context": [
+        "",
+        ""      
+      ],
+      "constraints": [
+        "",
+        ""       
+      ],
+      "evidence_reviews": [
+        "",
+        ""      
+      ]
+    },
+
+    {
+      "id": "P4",
+      "name": "",
+      "description": "",
+      "derived_from_group": "",
+      "goals": [
+        "",
+        ""      ],
+      "pain_points": [
+        "",
+        ""      ],
+      "context": [
+        "",
+        ""      ],
+      "constraints": [
+        "",
+        ""       ],
+      "evidence_reviews": [
+        "",
+        ""      ]
+    },
+
+    {
+      "id": "P5",
+      "name": "",
+      "description": "",
+      "derived_from_group": "",
+      "goals": [
+        "",
+        ""      ],
+      "pain_points": [
+        "",
+        ""      ],
+      "context": [
+        "",
+        ""      ],
+      "constraints": [
+        "",
+        ""       ],
+      "evidence_reviews": [
+        "",
+        ""      ]
+    }
+    
+  ] 
+}
