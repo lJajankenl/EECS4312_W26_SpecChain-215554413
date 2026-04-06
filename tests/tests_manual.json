@@ -2,15 +2,224 @@
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
+      "test_id": "T_manual_1",
       "requirement_id": "FR1",
-      "scenario": "Workout Logging Stability",
+      "scenario": "Subscription Terms Explicitly Displayed Before Free-Trial",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Open the Calm app and navigate to the sign-up page",
+        "Proceed to the payment page",
+        "Look on the payment page for billing details"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "The exact billing details including amount, frequency, and relevant dates are clearly displayed on the payment page before confirmation of subscription.  "
+    },
+    {
+      "test_id": "T_manual_2",
+      "requirement_id": "FR1",
+      "scenario": "Subscription Terms Not Hidden",
+      "steps": [
+        "Open the Calm app and navigate to the sign-up page",
+        "Proceed to the payment page without clicking any additional dialogue",
+        "Check to see if billing details are visible by default where no user input is required to find them on the payment page.  "
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
+    },
+    {
+      "test_id": "",
+      "requirement_id": "",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": ""
     }
   ]
 }
