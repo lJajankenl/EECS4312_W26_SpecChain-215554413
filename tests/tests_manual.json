@@ -2,7 +2,7 @@
 {
   "tests": [
     {
-      "test_id": "T_manual_1",
+      "test_id": "T1",
       "requirement_id": "FR1",
       "scenario": "Subscription Terms Explicitly Displayed Before Free-Trial",
       "steps": [
@@ -13,7 +13,7 @@
       "expected_result": "The exact billing details including amount, frequency, and relevant dates are clearly displayed on the payment page before confirmation of subscription.  "
     },
     {
-      "test_id": "T_manual_2",
+      "test_id": "T2",
       "requirement_id": "FR1",
       "scenario": "Subscription Terms Not Hidden",
       "steps": [
@@ -21,11 +21,33 @@
         "Proceed to the payment page without clicking any additional dialogue",
         "Check to see if billing details are visible by default where no user input is required to find them on the payment page.  "
       ],
+      "expected_result": "Billing details are visible on default on the payment page without any user input"
+    },
+    {
+      "test_id": "T3",
+      "requirement_id": "FR2",
+      "scenario": "No Automatic Subscription Sign-Up After Free Trial Period",
+      "steps": [
+        "Sign-up for a free trial",
+        "Allow free trial period to end naturally",
+        "Check the users account for a subscription status"
+      ],
       "expected_result": ""
     },
     {
-      "test_id": "",
-      "requirement_id": "",
+      "test_id": "T4",
+      "requirement_id": "FR2",
+      "scenario": "User Explicitly Confirms Subscription Sign-Up",
+      "steps": [
+        "Sign-up for the free trial",
+        "Let the free trial end",
+        "Observe whether the system prompts the user to confirm a payment to continue services.  "
+      ],
+      "expected_result": "The system clearly presents the user with an explicit subscription prompt where the user must confirm before the subscription is paid.  "
+    },
+    {
+      "test_id": "T5",
+      "requirement_id": "FR3",
       "scenario": "",
       "steps": [
         "",
@@ -35,8 +57,8 @@
       "expected_result": ""
     },
     {
-      "test_id": "",
-      "requirement_id": "",
+      "test_id": "T6",
+      "requirement_id": "FR3",
       "scenario": "",
       "steps": [
         "",
@@ -46,8 +68,8 @@
       "expected_result": ""
     },
     {
-      "test_id": "",
-      "requirement_id": "",
+      "test_id": "T7",
+      "requirement_id": "FR4",
       "scenario": "",
       "steps": [
         "",
@@ -57,8 +79,8 @@
       "expected_result": ""
     },
     {
-      "test_id": "",
-      "requirement_id": "",
+      "test_id": "T8",
+      "requirement_id": "FR4",
       "scenario": "",
       "steps": [
         "",
@@ -68,8 +90,8 @@
       "expected_result": ""
     },
     {
-      "test_id": "",
-      "requirement_id": "",
+      "test_id": "T9",
+      "requirement_id": "FR5",
       "scenario": "",
       "steps": [
         "",
@@ -79,8 +101,8 @@
       "expected_result": ""
     },
     {
-      "test_id": "",
-      "requirement_id": "",
+      "test_id": "T10",
+      "requirement_id": "FR5",
       "scenario": "",
       "steps": [
         "",
@@ -90,8 +112,8 @@
       "expected_result": ""
     },
     {
-      "test_id": "",
-      "requirement_id": "",
+      "test_id": "T11",
+      "requirement_id": "FR6",
       "scenario": "",
       "steps": [
         "",
@@ -101,8 +123,8 @@
       "expected_result": ""
     },
     {
-      "test_id": "",
-      "requirement_id": "",
+      "test_id": "T12",
+      "requirement_id": "FR6",
       "scenario": "",
       "steps": [
         "",
@@ -112,8 +134,8 @@
       "expected_result": ""
     },
     {
-      "test_id": "",
-      "requirement_id": "",
+      "test_id": "T13",
+      "requirement_id": "FR7",
       "scenario": "",
       "steps": [
         "",
@@ -123,8 +145,8 @@
       "expected_result": ""
     },
     {
-      "test_id": "",
-      "requirement_id": "",
+      "test_id": "T14",
+      "requirement_id": "FR7",
       "scenario": "",
       "steps": [
         "",
@@ -134,8 +156,8 @@
       "expected_result": ""
     },
     {
-      "test_id": "",
-      "requirement_id": "",
+      "test_id": "T15",
+      "requirement_id": "FR8",
       "scenario": "",
       "steps": [
         "",
@@ -145,8 +167,8 @@
       "expected_result": ""
     },
     {
-      "test_id": "",
-      "requirement_id": "",
+      "test_id": "T16",
+      "requirement_id": "FR8",
       "scenario": "",
       "steps": [
         "",
@@ -156,8 +178,8 @@
       "expected_result": ""
     },
     {
-      "test_id": "",
-      "requirement_id": "",
+      "test_id": "T17",
+      "requirement_id": "FR9",
       "scenario": "",
       "steps": [
         "",
@@ -167,8 +189,8 @@
       "expected_result": ""
     },
     {
-      "test_id": "",
-      "requirement_id": "",
+      "test_id": "T18",
+      "requirement_id": "FR9",
       "scenario": "",
       "steps": [
         "",
@@ -178,8 +200,8 @@
       "expected_result": ""
     },
     {
-      "test_id": "",
-      "requirement_id": "",
+      "test_id": "T19",
+      "requirement_id": "FR10",
       "scenario": "",
       "steps": [
         "",
@@ -189,30 +211,8 @@
       "expected_result": ""
     },
     {
-      "test_id": "",
-      "requirement_id": "",
-      "scenario": "",
-      "steps": [
-        "",
-        "",
-        ""
-      ],
-      "expected_result": ""
-    },
-    {
-      "test_id": "",
-      "requirement_id": "",
-      "scenario": "",
-      "steps": [
-        "",
-        "",
-        ""
-      ],
-      "expected_result": ""
-    },
-    {
-      "test_id": "",
-      "requirement_id": "",
+      "test_id": "T20",
+      "requirement_id": "FR10",
       "scenario": "",
       "steps": [
         "",
