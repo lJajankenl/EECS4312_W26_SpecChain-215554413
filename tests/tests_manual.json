@@ -113,46 +113,45 @@
     {
       "test_id": "T11",
       "requirement_id": "FR6",
-      "scenario": "",
+      "scenario": "Free Tier Grants Core Feature Access",
       "steps": [
-        "",
-        "",
-        ""
+        "Navigate to the payment page and select the free tier option",
+        "Navigate the app and try to access core mental wellness features"
       ],
-      "expected_result": ""
+      "expected_result": "After selecting the free model, the user is granted access to core mental wellness features for the full billing period.  "
     },
     {
       "test_id": "T12",
       "requirement_id": "FR6",
-      "scenario": "",
+      "scenario": "Free Tier Model is Clearly Visible On Payment Page",
       "steps": [
-        "",
-        "",
+        "Open the Calm app and navigate to the payment page",
+        "Check to see if there is a free version of Calm available ",
         ""
       ],
-      "expected_result": ""
+      "expected_result": "A free or price-reduced subscription option for is visible for and selectable.  "
     },
     {
       "test_id": "T13",
       "requirement_id": "FR7",
-      "scenario": "",
+      "scenario": "Search by Narrator Name Displays Correct Results",
       "steps": [
-        "",
-        "",
-        ""
+        "Sign-in to the Calm app",
+        "Navigate to the meditation content search bar",
+        "Enter a narrator's name into the search bar and see if the correct results are returned.  "
       ],
-      "expected_result": ""
+      "expected_result": "All the returned results are narrated by only the narrator that was searched for by the user.  "
     },
     {
       "test_id": "T14",
       "requirement_id": "FR7",
-      "scenario": "",
+      "scenario": "Narrator Search Returns Results Within 2 Seconds",
       "steps": [
-        "",
-        "",
-        ""
+        "Sign-in to the Calm app",
+        "Navigate to the meditation content search bar and enter a narrator to search for",
+        "Record the time between sumitting the search request and how long until the results are returned"
       ],
-      "expected_result": ""
+      "expected_result": "Search results are displayed after 2 seconds of submitting the request.  "
     },
     {
       "test_id": "T15",
