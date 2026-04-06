@@ -48,24 +48,24 @@
     {
       "test_id": "T5",
       "requirement_id": "FR3",
-      "scenario": "",
+      "scenario": "Minimum Size of Audio Library",
       "steps": [
-        "",
-        "",
-        ""
+        "Sign-in to the Calm app",
+        "Navigate to the sleep audio",
+        "Count the total amount of distinct sleep audio tracks"
       ],
-      "expected_result": ""
+      "expected_result": "The collection of sleep audio contains at least 50 distinct tracks.  "
     },
     {
       "test_id": "T6",
       "requirement_id": "FR3",
-      "scenario": "",
+      "scenario": "Availability to Wide Variety of Narrators and Environmental Sounds.  ",
       "steps": [
-        "",
-        "",
-        ""
+        "Sign-in to the Calm app",
+        "Navigate to the sleep audio",
+        "Browse audio content to identify the variety of narrator voices and environmental sounds"
       ],
-      "expected_result": ""
+      "expected_result": "The library includes sleep stories narrated by more than one narrators and at least 5 distinct environmental sound options.  "
     },
     {
       "test_id": "T7",
