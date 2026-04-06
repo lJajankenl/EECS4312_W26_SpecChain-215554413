@@ -48,18 +48,18 @@
 
 # Requirement ID: FR7
 
-- Description: []
-- Source Persona: []
-- Traceability: []
-- Acceptance Criteria: []
+- Description: [The system shall allow users to search for specific meditation content via their preferred narrotor's name.  ]
+- Source Persona: [Frequent Meditator]
+- Traceability: [Derived from revieww group G4]
+- Acceptance Criteria: [Given a user types their preferred narrotor's name, When the user submits the field, Then the system must returon only audio content that's narrorated by the preferred narrarator, where results must be displayed in 3 seconds.  ]
 
 
 # Requirement ID: FR8
 
-- Description: []
-- Source Persona: []
-- Traceability: []
-- Acceptance Criteria: []
+- Description: [The system shall properly adjust audio tracks narrator voice volume and background noise volume so that the narrator's voice is always clear.  ]
+- Source Persona: [Frequent Meditator]
+- Traceability: [Derived from revieww group G4]
+- Acceptance Criteria: [Given a meditation session is playing with background noises, When the session is active, Then the narrator's voice shall always be clear and understandable, where the background noises never overwhelm the audio track in terms of volume.  ]
 
 
 # Requirement ID: FR9
