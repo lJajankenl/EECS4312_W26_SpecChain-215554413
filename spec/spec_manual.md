@@ -16,18 +16,18 @@
 
 # Requirement ID: FR3
 
-- Description: []
-- Source Persona: []
-- Traceability: []
-- Acceptance Criteria: []
+- Description: [The system shall provide a libray with at least 50 distinct audio tracks including environmental audio tracks.  ]
+- Source Persona: [Poor Sleeper]
+- Traceability: [Derived from revieww group G2]
+- Acceptance Criteria: [Given a user navigates the audio selection UI of the Sleep app, When the view all the available content, Then the system must display a minimum of 50 distinct sleep tracks, where at least 10 tracks are enviromentally based.  ]
 
 
 # Requirement ID: FR4
 
-- Description: []
-- Source Persona: []
-- Traceability: []
-- Acceptance Criteria: []
+- Description: [The system shall play audio consistently without crashing throughout a night session for at least 8 hours.  ]
+- Source Persona: [Poor Sleeper]
+- Traceability: [Derived from revieww group G2]
+- Acceptance Criteria: [Given a users starts a sleep session, When 8 hours progress, Then the application will not crash or pre-maturely end the session along with the audio.  ]
 
 
 # Requirement ID: FR5
