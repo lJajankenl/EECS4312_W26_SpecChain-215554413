@@ -70,46 +70,45 @@
     {
       "test_id": "T7",
       "requirement_id": "FR4",
-      "scenario": "",
+      "scenario": "Sleep Audio Plays Un-Interrupted for 8 Consectuive Hours",
       "steps": [
-        "",
-        "",
-        ""
+        "Sign-in to the Calm app",
+        "Start a sleep audio session",
+        "After 8 hours have passed, observe whether the audio is still playing"
       ],
-      "expected_result": ""
+      "expected_result": "The application remains running after 8 hours, where the audio is not interrupted during the 8-hours.  "
     },
     {
       "test_id": "T8",
       "requirement_id": "FR4",
-      "scenario": "",
+      "scenario": "App Still Runs In-Background During a Sleep Session",
       "steps": [
-        "",
-        "",
-        ""
+        "Sign-in to the Calm app",
+        "Start a sleep audio session",
+        "Lock the device and let audio play for 6-hours to see if the app does not crash or the audio is disrupted.   "
       ],
       "expected_result": ""
     },
     {
       "test_id": "T9",
       "requirement_id": "FR5",
-      "scenario": "",
+      "scenario": "Notifications Sent 30 Days Before Price Changes",
       "steps": [
-        "",
-        "",
-        ""
+        "Set a date for a subscription price change in the system",
+        "Sign-in to the Calm app as a subscribed user",
+        "Check Calm for an in-app notification that discloses the the price change to the user"
       ],
-      "expected_result": ""
+      "expected_result": "An in-app notification clearly displays to the user of a price change within 30 days of it.  "
     },
     {
       "test_id": "T10",
       "requirement_id": "FR5",
-      "scenario": "",
+      "scenario": "Email Notification Sent 30 Days Before a Price Change",
       "steps": [
-        "",
-        "",
-        ""
+        "Set a date for a subscription price change in the system",
+        "Check the inbox of a user who is signed up with the Calm app to see if they've been notified 30 days before a pricing change is put into affect"
       ],
-      "expected_result": ""
+      "expected_result": "An email is recieved by a subscribed user 30 days prior to a price change, where the email contains new subscription details including the new price and effective date.  "
     },
     {
       "test_id": "T11",
