@@ -64,15 +64,15 @@
 
 # Requirement ID: FR9
 
-- Description: []
-- Source Persona: []
-- Traceability: []
-- Acceptance Criteria: []
+- Description: [The system shall have core guided meditation sessions available for free.  ]
+- Source Persona: [Mental Health Advocate/Participant]
+- Traceability: [Derived from revieww group G5]
+- Acceptance Criteria: [Given a user is on the free version of Calm, When they navigate to the guided meditation section, Then the system must allow 5 free guided guided meditation session, where a subscription is not required.  ]
 
 
 # Requirement ID: FR10
 
-- Description: []
-- Source Persona: []
-- Traceability: []
-- Acceptance Criteria: []
+- Description: [The system shall allow users greater customizability including re-ordering audio tracks, deleting and renaming playlists, and creating playlists.  ]
+- Source Persona: [Mental Health Advocate/Participant]
+- Traceability: [Derived from revieww group G5]
+- Acceptance Criteria: [Given a user navigates the playlist UI, When they perform a specific action like reorderedm renaming or deletion, Then the system must immeidiatelty save and reflect any changes the next time the playlist is opened.  ]
