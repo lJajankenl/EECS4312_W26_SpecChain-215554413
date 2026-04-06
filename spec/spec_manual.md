@@ -32,18 +32,18 @@
 
 # Requirement ID: FR5
 
-- Description: []
-- Source Persona: []
-- Traceability: []
-- Acceptance Criteria: []
+- Description: [The system shall notify all users of subscriptions pricing changes at least a month before the new price takes affect.  ]
+- Source Persona: [Middle Class Customer]
+- Traceability: [Derived from revieww group G3]
+- Acceptance Criteria: [Given a subscription price is to be changed, When the change is 30 days away, Then the system will explicitly notify the user of the future change thorugh an in-app push notification.  ]
 
 
 # Requirement ID: FR6
 
-- Description: []
-- Source Persona: []
-- Traceability: []
-- Acceptance Criteria: []
+- Description: [The system shall offer a more afforable price for lower income customers that cannot afford the standard subscription model.  ]
+- Source Persona: [Middle Class Customer]
+- Traceability: [Derived from revieww group G3]
+- Acceptance Criteria: [Given a user selects a lower priced susbscription option, When the confirm their information for eligibility, Then the system must grant access to core features regarding mental wellness.  ]
 
 
 # Requirement ID: FR7
