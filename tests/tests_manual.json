@@ -156,24 +156,24 @@
     {
       "test_id": "T15",
       "requirement_id": "FR8",
-      "scenario": "",
+      "scenario": "Default Volume Levels Between Narrator and Background are Balanced",
       "steps": [
-        "",
-        "",
-        ""
+        "Sign-in to the Calm app",
+        "Start a meditation track that has background noises",
+        "Listen to the audio and asses whether the narrator's voice is audible on the default volume level of the track.  "
       ],
-      "expected_result": ""
+      "expected_result": "The narrator's voice is clearly audible and is not drowned out by the background audio.  "
     },
     {
       "test_id": "T16",
       "requirement_id": "FR8",
-      "scenario": "",
+      "scenario": "Background Audio Does Not Overtake Narrator Audio",
       "steps": [
-        "",
-        "",
-        ""
+        "Sign-in to the Calm app",
+        "Start a meditation track that has background noises",
+        "Use audio analysis tools to compare the narrator and background noise levels against each other for the entirety of the audio track.  "
       ],
-      "expected_result": ""
+      "expected_result": "The background audio level does not exceed the narrator's voice level at any point during the session.  "
     },
     {
       "test_id": "T17",
