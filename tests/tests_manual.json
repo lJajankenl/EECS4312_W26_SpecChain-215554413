@@ -113,9 +113,9 @@
     {
       "test_id": "T11",
       "requirement_id": "FR6",
-      "scenario": "Free Tier Grants Core Feature Access",
+      "scenario": "Lower Priced Tier Grants Core Feature Access",
       "steps": [
-        "Navigate to the payment page and select the free tier option",
+        "Navigate to the payment page and select the lower tier option",
         "Navigate the app and try to access core mental wellness features"
       ],
       "expected_result": "After selecting the free model, the user is granted access to core mental wellness features for the full billing period.  "
@@ -123,10 +123,10 @@
     {
       "test_id": "T12",
       "requirement_id": "FR6",
-      "scenario": "Free Tier Model is Clearly Visible On Payment Page",
+      "scenario": "Lower Priced Model is Clearly Visible On Payment Page",
       "steps": [
         "Open the Calm app and navigate to the payment page",
-        "Check to see if there is a free version of Calm available ",
+        "Check to see if there is a lower-priced version of Calm available ",
         ""
       ],
       "expected_result": "A free or price-reduced subscription option for is visible for and selectable.  "
@@ -178,46 +178,46 @@
     {
       "test_id": "T17",
       "requirement_id": "FR9",
-      "scenario": "",
+      "scenario": "Free Tier Provides Access to the Min Guided Meditation Audios",
       "steps": [
-        "",
-        "",
-        ""
+        "Create a new Calm account without subscribing",
+        "Navigate UI to the meditation section",
+        "Attempt to access meditation sessions without upgrading"
       ],
-      "expected_result": ""
+      "expected_result": "At least 5 guided meditation sessions are available to a user who is one the free version of Calm.  "
     },
     {
       "test_id": "T18",
       "requirement_id": "FR9",
-      "scenario": "",
+      "scenario": "Free Tier Provides Access to the Min Amount of Breathing Exercises",
       "steps": [
-        "",
-        "",
-        ""
+        "Create a new Calm account without subscribing to a paid plan",
+        "Navigate UI to the breathing exercises section",
+        "Attempt to access breathing exercises without upgrading"
       ],
-      "expected_result": ""
+      "expected_result": "At least 5 breath exercises are available to free-tier users.  "
     },
     {
       "test_id": "T19",
       "requirement_id": "FR10",
-      "scenario": "",
+      "scenario": "User Can Create and Rename a Custom Playlist",
       "steps": [
-        "",
-        "",
-        ""
+        "Sign-in to the Calm app and navigate to the playlist management interface",
+        "Create a new playlist and assign a replaceable name",
+        "Rename the playlist to something else and check to see if the playlist name has changed"
       ],
-      "expected_result": ""
+      "expected_result": "The playlist appears with the updated name after renaming it from the original, where the cahnge persists.  "
     },
     {
       "test_id": "T20",
       "requirement_id": "FR10",
-      "scenario": "",
+      "scenario": "User Can Reorder and Delete Audio Tracks in a Playlist",
       "steps": [
-        "",
-        "",
-        ""
+        "Sign-in to the Calm app and open an existing playlist that contains 10 audio items",
+        "Reposition items to check for successful re-orders",
+        "Delete an audio item from the playlist and check if these changes are persistent"
       ],
-      "expected_result": ""
+      "expected_result": "The playlist reflects the changes made to the ordering of audio items and also the deleted audio item should no longer be in the playlist.  "
     }
   ]
 }
