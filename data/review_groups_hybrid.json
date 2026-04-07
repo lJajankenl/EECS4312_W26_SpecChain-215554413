@@ -1,13 +1,60 @@
 {  "groups": [
     {
       "group_id": "H1",
-      "theme": "Workout logging failures during activity tracking",
-      "review_ids": ["rev_12", "rev_33", "rev_41", "rev_92"],
-      "example_reviews": [
-        "The app crashes whenever I try to log a run.",
-        "Logging workouts causes the app to freeze."
+      "theme": "App satsification",
+      "review_ids": [
+        "3cdc690f-54f5-47cc-bdec-a614db1e85a9",
+        "93b6acf8-a3c7-4f74-add9-7a8148394cfe"
       ],
-      "notes": "Removed one unrelated review about login problems from the original automated group."
+      "example_reviews": [
+        "amazing app people trouble sleeping",
+        "really amazing app help manage mental well adhd"
+      ],
+      "notes": "Automated theme was really vague with group theme, so I refined it to represent user satisifcation.  "
+    },
+
+    {
+      "group_id": "H2",
+      "theme": "",
+      "review_ids": [""],
+      "example_reviews": [
+        "",
+        ""
+      ],
+      "notes": ""
+    },
+
+    {
+      "group_id": "H3",
+      "theme": "",
+      "review_ids": [""],
+      "example_reviews": [
+        "",
+        ""
+      ],
+      "notes": ""
+    },
+
+    {
+      "group_id": "H4",
+      "theme": "",
+      "review_ids": [""],
+      "example_reviews": [
+        "",
+        ""
+      ],
+      "notes": ""
+    },
+
+    {
+      "group_id": "H5",
+      "theme": "",
+      "review_ids": [""],
+      "example_reviews": [
+        "",
+        ""
+      ],
+      "notes": ""
     }
   ]
 }
