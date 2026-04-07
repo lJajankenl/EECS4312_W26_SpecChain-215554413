@@ -58,86 +58,86 @@
 
     {
       "id": "P_hybrid_3",
-      "name": "",
-      "description": "",
-      "derived_from_group": "",
+      "name": "Mental Wellness Improvement Seeker",
+      "description": "A causal user who wants to find ways to improve their mental wellness through the means of meditating, where they expect the app should be intuitive to navigate and use.  ",
+      "derived_from_group": "H3",
       "goals": [
-        "",
-        ""
+        "Quickly find and start meditation sessions without too much set up.  ",
+        "Find new content easily through a simple UI.  "
       ],
       "pain_points": [
-        "",
-        ""
+        "Navigation is confusing.  ",
+        "Background audio drowns out the narrator's voice during some sessions.  "
       ],
       "context": [
-        "",
-        ""
+        "Relatively new to the app and do not use it everyday.  ",
+        "Has little or no experience with meditation and is reliant on the app.  "
       ],
       "constraints": [
-        "",
-        ""
+        "Search functions must be accurate and return results quickly.  ",
+        "Navigation must be as simple as possible with the least amount of user input needed to find or start something.  "
       ],
       "evidence_reviews": [
-        "",
-        ""
+        "e7673f44-4314-4c59-8c0c-860df0a6e553",
+        "7a072e93-2983-482c-a450-6895d8466fb0"
       ],
-      "notes": ""
+      "notes": "Automated persona was way too broad.  I had to refine it by narrowing it down to usability and content discovery.  "
     },
 
     {
       "id": "P_hybrid_4",
-      "name": "",
-      "description": "",
-      "derived_from_group": "",
+      "name": "Frusterated Free to Use Individual",
+      "description": "A user who was looking for free options to use for guided meditations but is frusterated with how many features are pay walled.  ",
+      "derived_from_group": "H4",
       "goals": [
-        "",
-        ""
+        "Get use out of core app features before deciding on upgrading to a payed subscription.  ",
+        "Access to free meaningful content.  "
       ],
       "pain_points": [
-        "",
-        ""
+        "Most of the useful features/content is pay walled.  ",
+        "Free trial period is not long enough to get a meaningful and lasting experience from the app.  "
       ],
       "context": [
-        "",
-        ""
+        "Recently downloaded the app without subscribing to see if it is worth paying for.  ",
+        "Looking at various meditation/mental wellness apps.  "
       ],
       "constraints": [
-        "",
-        ""
+        "Free trial must provide enough content for a real assessment of the app to properly compare against other similar apps.  ",
+        "Trials terms and feature limitations must be explcitly communicated before sign-up.  "
       ],
       "evidence_reviews": [
-        "",
-        ""
+        "9198358f-d4cb-4d12-b2fe-405c3d3367c0",
+        "3deb28a0-1361-40de-98ae-c558ad5ad1cf"
       ],
-      "notes": ""
+      "notes": "Refined the automated persona by adding the missing fields.  Modeled after the group who are frusterated with free tier accessibility.  "
     },
 
     {
       "id": "P_hybrid_5",
-      "name": "",
-      "description": "",
-      "derived_from_group": "",
+      "name": "Wrongfully Charged Subscriber",
+      "description": "A user who was charged for a subscription unexpectedly after cancelling or letting their free trial end.  ",
+      "derived_from_group": "H5",
       "goals": [
-        "",
-        ""
+        "Get a refund for the wrongful and un-desired charge.  ",
+        "Easily cancel subscriptions and free trials with little to no effort.  "
       ],
       "pain_points": [
-        "",
-        ""
+        "Charged during the free trial period.  ",
+        "Customer support is unwilling to give out refunds and are unhelpful with billing issues.  "
       ],
       "context": [
-        "",
-        ""
+        "Cancelled a free trial or subscription but still charged.  ",
+        "Attempted to contact customer support to no avail.  "
       ],
       "constraints": [
-        "",
-        ""
+        "Cancellation must ensure no charge will occur in the future.  ",
+        "Refund leniency must be higher and payments must be timely.  "
       ],
       "evidence_reviews": [
-        "",
-        ""
+        "b329e371-4f27-47de-9f40-390de138149b",
+        "76e30760-6348-4891-85e0-d9b7c8ed0e43"
       ],
-      "notes": ""
+      "notes": "Automated persona again had empty fields.  Based this refinement of the persona around users who get wrongfully charged for a subscription.  "
     }
   ]
 }
