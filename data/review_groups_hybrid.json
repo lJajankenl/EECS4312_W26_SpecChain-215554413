@@ -43,24 +43,30 @@
 
     {
       "group_id": "H4",
-      "theme": "",
-      "review_ids": [""],
-      "example_reviews": [
-        "",
-        ""
+      "theme": "Subscription Tier Concerns",
+      "review_ids": [
+        "9198358f-d4cb-4d12-b2fe-405c3d3367c0",
+        "3deb28a0-1361-40de-98ae-c558ad5ad1cf"
       ],
-      "notes": ""
+      "example_reviews": [
+        "seven day free trial app work expensive subscription make free trial thirty day ill review near future maybe five star",
+        "first time tried free lot good option purchased subscription really enjoyed started counting penny stopped paying extra thing hard find free item im unhappy"
+      ],
+      "notes": "Made distinct from H5 by focussing in on pay walled content and lack of features for free tier users.  "
     },
 
     {
       "group_id": "H5",
-      "theme": "",
-      "review_ids": [""],
-      "example_reviews": [
-        "",
-        ""
+      "theme": "Billing and subscription issues.  ",
+      "review_ids": [
+        "b329e371-4f27-47de-9f40-390de138149b",
+        "76e30760-6348-4891-85e0-d9b7c8ed0e43"
       ],
-      "notes": ""
+      "example_reviews": [
+        "canceled subscription trail phase application still charged annual subscription fee",
+        "cancelled subscription immediately got free month still charged year without permission"
+      ],
+      "notes": "Refined by removing complaints regarding the pricing into H4 and only focussed in on unexpected billings/charges.  "
     }
   ]
 }
