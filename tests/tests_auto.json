@@ -1,15 +1,57 @@
-{
-  "tests": [
+[
     {
-      "test_id": "T_auto_1",
-      "requirement_id": "FR_auto_1",
-      "scenario": "Logging a workout without crashing",
-      "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
-      ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+        "test_id": "TEST-FR_auto_1",
+        "requirement_id": "FR_auto_1",
+        "scenario_description": "Verify that The system shall provide The system provides calming and relaxing features. for G1 Persona",
+        "steps": [
+            "1. Given the user's current mental state",
+            "2. When the system processes their request",
+            "3. Verify that Then The system provides calming and relaxing features."
+        ],
+        "expected_outcome": "Then The system provides calming and relaxing features."
+    },
+    {
+        "test_id": "TEST-FR_auto_2",
+        "requirement_id": "FR_auto_2",
+        "scenario_description": "Verify that The system shall provide The system provides sleep guidance and monitoring features. for G2 Persona",
+        "steps": [
+            "1. Given the user's current mental state",
+            "2. When the system processes their request",
+            "3. Verify that Then The system provides sleep guidance and monitoring features."
+        ],
+        "expected_outcome": "Then The system provides sleep guidance and monitoring features."
+    },
+    {
+        "test_id": "TEST-FR_auto_3",
+        "requirement_id": "FR_auto_3",
+        "scenario_description": "Verify that The system shall provide The system provides a simple and intuitive navigation interface. for G3 Persona",
+        "steps": [
+            "1. Given the user's current mental state",
+            "2. When the system processes their request",
+            "3. Verify that Then The system provides a simple and intuitive navigation interface."
+        ],
+        "expected_outcome": "Then The system provides a simple and intuitive navigation interface."
+    },
+    {
+        "test_id": "TEST-FR_auto_4",
+        "requirement_id": "FR_auto_4",
+        "scenario_description": "Verify that The system shall provide The system provides transparent and affordable pricing options. for G4 Persona",
+        "steps": [
+            "1. Given the user's current mental state",
+            "2. When the system processes their request",
+            "3. Verify that Then The system provides transparent and affordable pricing options."
+        ],
+        "expected_outcome": "Then The system provides transparent and affordable pricing options."
+    },
+    {
+        "test_id": "TEST-FR_auto_5",
+        "requirement_id": "FR_auto_5",
+        "scenario_description": "Verify that The system shall provide The system provides personalized recommendations and feedback. for G5 Persona",
+        "steps": [
+            "1. Given the user's current mental state",
+            "2. When the system processes their request",
+            "3. Verify that Then The system provides personalized recommendations and feedback."
+        ],
+        "expected_outcome": "Then The system provides personalized recommendations and feedback."
     }
-  ]
-}
+]
