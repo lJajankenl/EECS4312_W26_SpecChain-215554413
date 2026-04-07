@@ -10,18 +10,21 @@
         "amazing app people trouble sleeping",
         "really amazing app help manage mental well adhd"
       ],
-      "notes": "Automated theme was really vague with group theme, so I refined it to represent user satisifcation.  "
+      "notes": "Automated theme was really vague with group theme, so I refined it to represent user satisifcation.  Also removed an out of place billing review.  "
     },
 
     {
       "group_id": "H2",
-      "theme": "",
-      "review_ids": [""],
-      "example_reviews": [
-        "",
-        ""
+      "theme": "Sleep related topics such as improved sleep, and actual sleep content.  ",
+      "review_ids": [
+        "f095bf3f-b100-49e2-89b6-80047c7a912c",
+        "1c836529-f5d1-4f12-8481-fabd04ef5890"
       ],
-      "notes": ""
+      "example_reviews": [
+        "helped much sleep even tracked thing didnt know love recommend",
+        "great app really help get sleep wish theyd add train story"
+      ],
+      "notes": "Just removed some out of place reviews.  "
     },
 
     {
