@@ -2,30 +2,142 @@
   "personas": [
     {
       "id": "P_hybrid_1",
-      "name": "Frequent Fitness Logger",
-      "description": "A user who depends on the app for regular workout tracking and expects logging to work reliably during or immediately after exercise.",
+      "name": "Satisfied User",
+      "description": "A user who consistently uses the Calm app in their daily routine for meditation, sleep, and relaxation.  ",
       "derived_from_group": "H1",
       "goals": [
-        "Log workouts quickly",
-        "Track activities without interruption"
+        "Easily maintain a daily routine for meditation, sleep, and relaxation.  ",
+        "Access high quality mediatation, sleep, and relaxation content.  "
       ],
       "pain_points": [
-        "The app crashes while saving workouts",
-        "Previously entered activity data may disappear"
+        "Preffered narrator's can change without any notice.  ",
+        "Useful features are pay walled.  "
       ],
       "context": [
-        "Using the app during exercise sessions",
-        "Using the app outdoors or while moving"
+        "Frequently uses the app to make their routine more convenient and accessible.  ",
+        "Values and prefers certain narratos over other for meditation sessions.  "
       ],
       "constraints": [
-        "Workout logging must complete without crashing",
-        "Saved workout data must persist"
+        "Audio content including specific narrators must be available consistently.  ",
+        "Features must not be pay walled without proper and explicit communication with users.  "
       ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_41"
+        "3cdc690f-54f5-47cc-bdec-a614db1e85a9",
+        "93b6acf8-a3c7-4f74-add9-7a8148394cfe"
       ],
-      "notes": "Refined the persona description and removed an unsupported assumption about synchronization."
+      "notes": "The automated persona for the first group only containted keywords, so I refined this persona to reflect satisified app users.  "
+    },
+
+    {
+      "id": "P_hybrid_2",
+      "name": "Poor Sleeper",
+      "description": "User wo struggles with sleeping and relies on Calm's sleep stories and calming audio content.  ",
+      "derived_from_group": "H2",
+      "goals": [
+        "Improve sleep quality and fall asleep faster using sleep stories and relaxing audio.  ",
+        "Have access to a wide variety of sleep audio content.  "
+      ],
+      "pain_points": [
+        "Lack of variety in terms of narrator voice selection.  ",
+        "App crashes during overnight sessions where it is open for multiple hours.  "
+      ],
+      "context": [
+        "User consistently uses the app to fall asleep.  ",
+        "Finds sleep stories calming and environmental sounds relaxing.  "
+      ],
+      "constraints": [
+        "Audio must not be interrupted for at least 8 hours.  ",
+        "Audio content for sleep session must have a large variety of narrators and environmental noises.  "
+      ],
+      "evidence_reviews": [
+        "f095bf3f-b100-49e2-89b6-80047c7a912c",
+        "1c836529-f5d1-4f12-8481-fabd04ef5890"
+      ],
+      "notes": "Automated persona had a lot of problems including empty goals, pain points, etc., basically had to refine the entirety of this persona from the corresponding review group.  "
+    },
+
+    {
+      "id": "P_hybrid_3",
+      "name": "",
+      "description": "",
+      "derived_from_group": "",
+      "goals": [
+        "",
+        ""
+      ],
+      "pain_points": [
+        "",
+        ""
+      ],
+      "context": [
+        "",
+        ""
+      ],
+      "constraints": [
+        "",
+        ""
+      ],
+      "evidence_reviews": [
+        "",
+        ""
+      ],
+      "notes": ""
+    },
+
+    {
+      "id": "P_hybrid_4",
+      "name": "",
+      "description": "",
+      "derived_from_group": "",
+      "goals": [
+        "",
+        ""
+      ],
+      "pain_points": [
+        "",
+        ""
+      ],
+      "context": [
+        "",
+        ""
+      ],
+      "constraints": [
+        "",
+        ""
+      ],
+      "evidence_reviews": [
+        "",
+        ""
+      ],
+      "notes": ""
+    },
+
+    {
+      "id": "P_hybrid_5",
+      "name": "",
+      "description": "",
+      "derived_from_group": "",
+      "goals": [
+        "",
+        ""
+      ],
+      "pain_points": [
+        "",
+        ""
+      ],
+      "context": [
+        "",
+        ""
+      ],
+      "constraints": [
+        "",
+        ""
+      ],
+      "evidence_reviews": [
+        "",
+        ""
+      ],
+      "notes": ""
     }
   ]
 }
