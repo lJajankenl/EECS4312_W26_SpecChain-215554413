@@ -29,13 +29,16 @@
 
     {
       "group_id": "H3",
-      "theme": "",
-      "review_ids": [""],
-      "example_reviews": [
-        "",
-        ""
+      "theme": "Overall app usability and quality of content.  ",
+      "review_ids": [
+        "e7673f44-4314-4c59-8c0c-860df0a6e553",
+        "7a072e93-2983-482c-a450-6895d8466fb0"
       ],
-      "notes": ""
+      "example_reviews": [
+        "annoying ux experience please remove splash screen dismiss everytime open app please make search function better find u want time",
+        "great applove guest meditation overall quick easy listening"
+      ],
+      "notes": "The automated theme was too general.  Narrowed down the theme to usability and general quality of the content.  Also, out place reviews were removed.  "
     },
 
     {
