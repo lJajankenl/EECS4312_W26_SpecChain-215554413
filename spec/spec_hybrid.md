@@ -39,39 +39,39 @@
 
 
 # Requirement ID: FR_hybrid_6
-- Description: []
-- Source Persona: []
-- Traceability: []
-- Acceptance Criteria: []
-- Notes: []
+- Description: [The system shall ensure the narrator voice remains clearly audible above background audio at all volume settings.  ]
+- Source Persona: [Mental Wellness Improvement Seeker]
+- Traceability: [Derived from review group H3]
+- Acceptance Criteria: [Given a meditation session is playing with background sounds, When the session is in progress, Then the narrator voice must be clearly audible and must not be drowned out by the background audio at any point.  ]
+- Notes: [Had to derive a new FR because the automated spec only had 5 as task 4 step 4.4 did not specifiy as to how many FRs we should have.  Focusses in on background and narrator voice balancing.  ]
 
 # Requirement ID: FR_hybrid_7
-- Description: []
-- Source Persona: []
-- Traceability: []
-- Acceptance Criteria: []
-- Notes: []
+- Description: [The system shall provide free-tier users access to at least 5 guided meditation sessions and 3 sleep stories without requiring a subscription.  ]
+- Source Persona: [Frustrated Free to Use Individual]
+- Traceability: [Derived from review group H4]
+- Acceptance Criteria: [Given a user is on the free tier model, When they navigate to the meditation or sleep sections, Then the system must grant access to at least 5 guided meditation sessions and 3 sleep stories without prompting a subscription upgrade.  ]
+- Notes: [Refined FR_auto_4 to replace vague affordability language with a specific and measurable free content access requirement.  ]
 
 
 # Requirement ID: FR_hybrid_8
-- Description: []
-- Source Persona: []
-- Traceability: []
-- Acceptance Criteria: []
-- Notes: []
+- Description: [The system shall clearly display all free trial details including duration, subscription price, and billing date before a user confirms sign-up.  ]
+- Source Persona: [Frustrated Free to Use Individual]
+- Traceability: [Derived from review group H4]
+- Acceptance Criteria: [Given a user is on the free trial sign-up page, When they reach the payment confirmation step, Then the system must clearly display the trial duration, subscription price post free trial, and exact billing date before the user confirms.  ]
+- Notes: [Had to derive a new FR because the automated spec only had 5 as task 4 step 4.4 did not specifiy as to how many FRs we should have.  Focusses in on explicitness of subscription details and conditions.   ]
 
 
 # Requirement ID: FR_hybrid_9
-- Description: []
-- Source Persona: []
-- Traceability: []
-- Acceptance Criteria: []
-- Notes: []
+- Description: [The system shall not charge a user after they have cancelled a free trial or subscription.  ]
+- Source Persona: [Wrongfully Charged Subscriber]
+- Traceability: [Derived from review group H5]
+- Acceptance Criteria: [Given a user has cancelled a free trial or subscription, When the cancellation is confirmed, Then the system must not proceed with any further charges to the user's payment method.  ]
+- Notes: [Refined FR_auto_5 to replace vague personalization language with a specific billing protection.  ]
 
 
 # Requirement ID: FR_hybrid_10
-- Description: []
-- Source Persona: []
-- Traceability: []
-- Acceptance Criteria: []
-- Notes: []
+- Description: [The system shall process refund requests for unwanted subscription charges within 3 business days of submission.  ]
+- Source Persona: [Wrongfully Charged Subscriber]
+- Traceability: [Derived from review group H5]
+- Acceptance Criteria: [Given a user submits a refund request for an unwanted/unintended charge, When 3 business days have passed, Then the system must have processed the refund and notified the user of the result via email.  ]
+- Notes: [Had to derive a new FR because the automated spec only had 5 as task 4 step 4.4 did not specifiy as to how many FRs we should have.  Focusses in on timely refunds.  ]
