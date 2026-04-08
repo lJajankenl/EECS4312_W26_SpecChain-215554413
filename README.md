@@ -1,33 +1,30 @@
 # EECS4312_W26_SpecChain
 
-## instructions:
-Please update to include: 
-- App name
-- Data collection method
-- Original dataset
-- Final cleaned dataset
-- Exact commands to run pipeline
-
-# example
 Application: Calm - Sleep, Meditate, Relax
 
 Dataset:
 - reviews_raw.jsonl contains the collected reviews.
 - reviews_clean.jsonl contains the cleaned dataset.
-- The cleaned dataset contains 842 reviews.
+- The raw dataset contains 2000 reviews.
+- The cleaned dataset contains 1520 reviews.
 
 Repository Structure:
-- data/ contains datasets and review groups
-- personas/ contains persona files
-- spec/ contains specifications
-- tests/ contains validation tests
-- metrics/ contains all metric files
+- data/ contains datasets, review groups, and metadata.  
+- personas/ contains persona files for the manual, automated, and hybrid pipelines
+- spec/ contains specifications for the manual, automated, and hybrid pipelines
+- tests/ contains validation tests for the manual, automated, and hybrid pipelines
+- metrics/ contains all metric files for the manual, automated, and hybrid pipelines
 - src/ contains executable Python scripts
 - reflection/ contains the final reflection
 
-How to Run:
-1. python src/00_validate_repo.py
-2. python src/02_clean.py
-3. python src/run_all.py
-4. Open metrics/metrics_summary.json for comparison results
 
+How to Run:
+
+To validate the repository structure: 
+python src/00_validate_repo.py
+
+To run the full automated pipeline:
+python src/run_all.py
+
+To view the metrics comparison across all three pipelines:
+metrics/metrics_summary.json

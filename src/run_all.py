@@ -16,3 +16,6 @@ exec(open("src/07_tests_generate.py").read())
 
 # Step 6: Compute metrics for all pipelines and save summary -> metrics/
 exec(open("src/08_metrics.py").read())
+
+# Step 7: Validate that all required folders and files are present
+exec(open("src/00_validate_repo.py").read())
