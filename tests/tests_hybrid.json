@@ -3,14 +3,129 @@
     {
       "test_id": "T_hybrid_1",
       "requirement_id": "FR_hybrid_1",
-      "scenario": "Save a workout entry without crashing",
+      "scenario": "Preferred narrator is automatically set when opening a meditation session",
       "steps": [
-        "Open the workout logging feature",
-        "Enter workout information",
-        "Submit the workout"
+        "Select a preferred narrator in settings of audio selection",
+        "Open a meditation session"
       ],
-      "expected_result": "The workout is saved successfully and the application does not crash.",
-      "notes": "Revised the expected result to match the updated hybrid requirement."
+      "expected_result": "The session must automatically start playing with the selected narrator's voice.  ",
+      "notes": "Refined the automated test to be directly testable and tied to the narrator preference feature.  "
+    },
+
+    {
+      "test_id": "T_hybrid_2",
+      "requirement_id": "FR_hybrid_2",
+      "scenario": "User is notified a week before previously accessed content is pay walled",
+      "steps": [
+      "Set a previously accessed content item of a user to be pay walled",
+      "Check the user's in-app notifications a week prior to the change"
+      ],
+      "expected_result": "The system must send an in-app notification that explicitly states what content being pay walled and when the change will happen.  ",
+      "notes": "Refined the automated test to focus on content that is actively being consumed abruptly being pay walled."
+    },
+
+    {
+      "test_id": "T_hybrid_3",
+      "requirement_id": "FR_hybrid_3",
+      "scenario": "Sleep session audio plays without interruption for a minimum of 8 continuous hours",
+      "steps": [
+        "Start a sleep session",
+        "Leave the session running for 8 consecutive hours",
+        "Check whether audio is still playing without crashes or unexpected pauses"
+      ],
+      "expected_result": "The application must still be playing audio without interruption from crashes or unexpected pauses after 8 hours.  ",
+      "notes": "Refined the automated test to include a proper testable threshold for playback consistency.  "
+    },
+
+    {
+      "test_id": "T_hybrid_4",
+      "requirement_id": "FR_hybrid_4",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": "",
+      "notes": ""
+    },
+
+    {
+      "test_id": "T_hybrid_5",
+      "requirement_id": "FR_hybrid_5",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": "",
+      "notes": ""
+    },
+
+    {
+      "test_id": "T_hybrid_6",
+      "requirement_id": "FR_hybrid_6",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": "",
+      "notes": ""
+    },
+
+    {
+      "test_id": "T_hybrid_7",
+      "requirement_id": "FR_hybrid_7",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": "",
+      "notes": ""
+    },
+
+    {
+      "test_id": "T_hybrid_8",
+      "requirement_id": "FR_hybrid_8",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": "",
+      "notes": ""
+    },
+
+    {
+      "test_id": "T_hybrid_9",
+      "requirement_id": "FR_hybrid_9",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": "",
+      "notes": ""
+    },
+    
+    {
+      "test_id": "T_hybrid_10",
+      "requirement_id": "FR_hybrid_10",
+      "scenario": "",
+      "steps": [
+        "",
+        "",
+        ""
+      ],
+      "expected_result": "",
+      "notes": ""
     }
   ]
 }
