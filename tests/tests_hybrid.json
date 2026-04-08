@@ -40,40 +40,37 @@
     {
       "test_id": "T_hybrid_4",
       "requirement_id": "FR_hybrid_4",
-      "scenario": "",
+      "scenario": "Sleep audio library has at least 10 distinct narrator voices and 10 environmental sounds",
       "steps": [
-        "",
-        "",
-        ""
+       "Navigate to the sleep audio section",
+       "Count the number of distinct narrators and environmental sound options available"
       ],
-      "expected_result": "",
-      "notes": ""
+      "expected_result": "The system must display sleep stories from at least 10 distinct narrators and at least 10 distinct environmental sounds.  ",
+      "notes": "Refined the automated test to include specific countable thresholds for narrator and sound variety selection.  "
     },
 
     {
       "test_id": "T_hybrid_5",
       "requirement_id": "FR_hybrid_5",
-      "scenario": "",
+      "scenario": "Meditation content search returns accurate results within 2 seconds of user input",
       "steps": [
-        "",
-        "",
-        ""
+       "Enter a search term in the meditation search bar and submit the form",
+       "Record the time between submission and the time it takes for the results to appear"
       ],
-      "expected_result": "",
-      "notes": ""
+      "expected_result": "The system must display accurate results within 2 seconds of the user submitting their input.  ",
+      "notes": "Refined the automated test to include a specific and testable search performance.  "
     },
 
     {
       "test_id": "T_hybrid_6",
       "requirement_id": "FR_hybrid_6",
-      "scenario": "",
+      "scenario": "Narrator's voice is clearly audible over background audio during a meditation session",
       "steps": [
-        "",
-        "",
-        ""
+         "Start a meditation session with background sounds enabled",
+         "Assess whether the narrator voice is clearly audible throughout the session"
       ],
-      "expected_result": "",
-      "notes": ""
+      "expected_result": "The narrator voice must be clearly audible and must not be drowned out by background audio at any point.  ",
+      "notes": "Revised the automated test to focus on background and narrator voice balancing.  "
     },
 
     {
